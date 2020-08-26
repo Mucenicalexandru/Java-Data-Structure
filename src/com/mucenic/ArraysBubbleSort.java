@@ -2,7 +2,7 @@ package com.mucenic;
 
 import java.util.Arrays;
 
-public class ArraysSortAlgorithms {
+public class ArraysBubbleSort {
     public static void main(String[] args) {
         //Bubble sort - least efficient algorithm - very slow - not used very often
         //O(n2) time complexity  - quadratic - approximate we don't do math when deciding time complexity
@@ -17,7 +17,6 @@ public class ArraysSortAlgorithms {
         intArray[5] = 1;
         intArray[6] = -22;
 
-        System.out.println(Arrays.toString(intArray));
 
         // int unsortedPartitionIndex = 6; // the last index of the unsorted array
         // int i = 0; // index to traverse the array from left to right
