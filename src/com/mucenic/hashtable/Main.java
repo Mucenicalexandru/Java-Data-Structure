@@ -17,5 +17,8 @@ public class Main {
         ht.printHashtable();
 
         System.out.println(ht.get("Wilson"));
+        ht.remove("Wilson");
+        ht.remove("Jones");
+        ht.printHashtable();
     }
 }
